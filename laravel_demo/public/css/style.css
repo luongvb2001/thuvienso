@@ -1,0 +1,86 @@
+*{ margin: 0px; padding: 0px;}
+a,li{text-decoration: none;list-style: none}
+#wrapper{ width: 990px; height:auto; margin: 0px auto }
+#banner{ height: 130px; background-color: #00FF33; background-image: url(../images/cit.jpg)}
+#menu{ width: 990px;margin: 5px 0 0 0;height: 32px;border-radius:5px;background-image:url(../images/bgmenu.gif)}
+#search{width: 976px;margin-top:5px;height: 40px; padding:7px;	position: relative; background-image:url(../images/bg_main_search.gif);}
+#content{ width: 990px; margin-top:6px;}
+#content #left{clear:both;width: 250px;margin: 0 5px 0px 0;height:auto;float: left;}
+#content #center{ width: 705px; margin: 0 5px 0 20px;border: 1px solid #CCCCCC;border-bottom: 1px solid #000000; height: auto;float: left;}
+/**#content #right{ width: 227px;height:auto;border: 1px solid #CCCCCC ;float: left;}**/
+#footer{ width: 990p	x;margin-top: 5px;border: 1px solid #CCCCCC; height: 100px;clear: both; float:right;}
+
+/******************************menu****************/
+.smoothmenu ul{ list-style-type: none; padding: 5px 15px;}
+.smoothmenu ul li{float: left; position: relative;}
+.smoothmenu ul li a{ padding: 0px 25px 0 25px; color: #FFFFFF; text-decoration:none;}
+.smoothmenu ul li a:hover{ color:#FFFF00;}
+
+/*************************search*****************/
+#search img{float:left;height: 23px}
+#search_form {float:left; height: 23px;}
+#search .text{width:250px;height: 23px;float:left;border-radius: 5px;margin-right: 5px}
+.select{height: 23px;width:100px;float:left;border-radius:5px;margin-right: 5px}
+.submit{float:left;height:23px;width: 80px;border-radius: 5px;background: #FF7F24;color:#FFFFFF;}
+#upload{float:right;}
+#upload img{height: 40px;position: absolute;top: 0px; right: 0px;}
+
+/************************content********************/
+/***********************content_left****************/
+#menu_left{ width: 250px; margin: 0px 0 0 0px; border: 1px solid #CCCCCC;}
+#menu_left ul{ list-style-type: none;}
+#menu_left > ul{ padding: 10px 20px 20px 10px;}
+#menu_left li{ line-height: 26px;}
+#menu_left > ul > li{ border-bottom: 1px solid #CCCCCC; }
+.sub_menu li{ padding-left: 20px; background: url(../images/bg_arrow_menu.gif) no-repeat 10px 10px;}
+.sub_menu{ padding-bottom: 15px;}
+#menu_left a{ color: #000000; }
+#menu_left a:hover{color: #f1004c; cursor: pointer;}
+#menu_left1{ width: 200px; margin: 7px 0 0 0; height: 20px; border: 1px solid #000000;}
+
+/***********************content-right****************
+#login_input{width: 194px; margin: auto; border: 1px solid #CCCCCC; }
+#login_input ul{ list-style-type:none;}
+#login_input > ul{ padding: 10px 20px 20px 15px;}
+#login_input li { line-height: 30px;}
+#login_input ul li .input5{ background: url(../images/bg_title_commin.gif) no-repeat; width: 90px; margin: 10px 0 0 0px; height: 27px; }
+*/
+
+/********************content_center*********************/
+#center .text h1 {color: red; width: 500px;}
+.clearfix {clear:both;}
+.news_index {}
+.news_index .news_item_index {margin: 10px 20px;}
+.news_index h2 {width: 230px; height:30px; background: #6FF; color: red; font-size: 20px; text-align: center; line-height: 30px; margin-top:10px;}
+.news_index img {float:left; padding: 10px 10px 10px 0;}
+.news_index .intro_news_index {padding: 10px 0;}
+.intro_news_index .tacgia {margin-top: 0px; color: red; float:left;}
+.intro_news_index .tukhoa {margin-top: 0px; color: red; float:left;}
+.intro_news_index .loaifile {margin-top: 0px; color: red; float:left;}
+
+
+/**********************footer*****************/
+#footer_left{
+	width: 540px;
+	float: left;
+}
+#footer_right{
+	width: 450;
+	margin-top: 20px;
+	float: right;
+}
+/****************login****************/
+form{
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+}
+form input{
+	
+	margin-bottom: 10px;
+	
+}
+
+label.error{
+	color:#c0392b;
+}

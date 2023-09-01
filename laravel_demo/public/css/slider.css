@@ -1,0 +1,33 @@
+
+.container #ids
+{
+	width:1000px;
+	margin: 20px auto;
+	border: 1px solid #000000;
+	height:300px;
+}
+.jumbotron
+{
+	width: 735px;
+	height: 600px;
+}
+
+.sidebar .form-login{
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+}
+form input{
+	
+	margin-bottom: 10px;
+	
+}
+
+label.error{
+	color:#c0392b;
+}
+
+.text-center{
+	text-align: left
+}
+

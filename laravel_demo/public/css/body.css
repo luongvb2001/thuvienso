@@ -1,0 +1,149 @@
+body{
+	
+	padding: 20px;
+	background: url(../images/background.png) repeat;
+}
+
+h5{
+	color: #3498db;
+	margin-left: 10px;
+}
+
+.accordion{
+	margin-left: 10px;
+}
+.container{
+	margin: px;
+}
+menu{
+	margin-bottom: 30px;
+}
+select{
+	width:300px;
+	height: 30px;
+	margin-left: 12px;
+}
+form{
+	width: 400px;
+	margin-top: 8px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.btn-primary{
+	margin-bottom: 8px;
+}
+label{
+	margin-left: 8px;
+}
+label.error{
+	color:#c0392b;
+}
+.form-control{
+	margin-left: 10px;
+}
+form input{
+	margin-bottom: 9px;
+}
+.btn-block {
+	margin-left: 9px;
+}
+.btn-default {
+	margin-bottom: 8px;
+}
+
+.list-group{
+	margin-top: 9px;
+}
+.row{
+	margin-top: 0px;
+	margin-right: 2px;
+}
+.list-group-item.active{
+	color:#000;
+	background-color: #D9EDF7;
+	border-color: #D9EDF7 ;
+}
+
+#row p {
+	float: right;
+}
+
+.navbar-default .navbar-nav > li > a{
+	color: #fff;
+	background-color: #337ab7;
+}
+
+.navbar-default{
+	background-color: #337ab7;
+	border-color: #fff;
+}
+
+.navbar-default .navbar-nav > .active > a{
+	color: #fff;
+	background-color: #337ab7;
+}
+.navbar-default .navbar-brand{
+	color: #fff;
+}
+
+.col-sm-12 {
+	width:100%;
+	margin-top: 10px;
+}
+
+
+#thediv_scroll{
+height:300px;
+width:800px;
+margin-left:0px;
+border:1px #999999 solid;
+padding: 5px 5px 5px 5px;/* canh chinh noi dung va le the div*/
+overflow:auto; /* thuoc tinh nay lam xuat hien thanh cuon*/
+
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+
+/* tạo thanh cuộn chuyển lên trang đầu*/
+.gp{
+    background: #666 url(arrow_up.png) center center no-repeat;
+    width: 32px;
+    height: 32px;
+    color: #fff;
+    font-family: verdana;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+    padding: 15px;
+    margin: 5px;
+}​
+
+
